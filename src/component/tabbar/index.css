@@ -1,0 +1,20 @@
+.tabbar{
+    height:50px;
+    position: absolute;
+    bottom:0px;
+    width: 1000px;
+}
+.tabbar-content{
+    display: flex;
+}
+.tabbar-item{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+.iconfont{
+    font-size: 28px !important;
+}
+.active{
+    background: skyblue;
+}
